@@ -1,0 +1,297 @@
+/* header css start */
+header{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+header .top{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+header .top p{
+    margin-right:20px;
+}
+header .bottom{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(164, 6, 6);
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+header .bottom .menu{
+    display: flex;
+    flex-flow: row;
+}
+header .bottom .menu .menuitem{
+    display: none;
+}
+header .bottom .menu .menubar a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+header .bottom .social{
+    display: flex;
+    flex-flow: row;
+}
+header .bottom .social div{
+    padding: 0px 5px;
+    border-right: 1px solid white;
+    
+}
+header .bottom .social div svg{
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+}
+header .bottom .social div:nth-child(1) svg{
+    fill: white;
+}
+header .bottom .social div:nth-child(1) svg:hover{
+    fill: pink;
+}
+/* header css end */
+/* start nav css */
+.wrapper nav{
+    width: 100%;
+}
+.wrapper nav .products{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-template-rows: repeat(9,140px);
+}
+.wrapper nav .products .lipstick{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    gap: 15px;
+    border: 0.5px solid black;
+    box-shadow: 1px 1px 10px black;
+}
+.wrapper nav .products .lipstick .img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.wrapper nav .products .lipstick .about{
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+}
+.wrapper nav .products .lipstick .about h3{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    width: fit-content;
+}
+.wrapper nav .products .lipstick .about a{
+    text-decoration: none;
+    color: black;
+    font-size:14px ;
+}
+.wrapper nav .products .lipstick .about p{
+    font-size: 14px;
+    width: fit-content;
+}
+.wrapper nav .products .lipstick .about p svg{
+    position: relative;
+    top: 4px;
+}
+.wrapper nav .products .lipstick .about .more{
+    color: rgb(164, 6, 6);
+    font-size: 14px;
+}
+.wrapper nav .products .lipstick .about .more:hover{
+    color: rgb(250, 130, 150);
+}
+/* start nav css product */
+.intro{
+    width: 90%;
+    display: grid;
+    margin: 100px auto;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    grid-template-columns: repeat(2,auto);
+    padding: 10px 15px;
+    gap: 15px;
+}
+.intro .imgpro img{
+    width: 100px;
+    height: 150px;
+}
+.intro .about{
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+}
+.intro .about h3{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    width: fit-content;
+}
+.intro .about a{
+    text-decoration: none;
+    color: black;
+    font-size:14px ;
+}
+.intro .about p{
+    font-size: 14px;
+    width: fit-content;
+}
+.intro .about p svg{
+    position: relative;
+    top: 4px;
+}
+.swiper4{
+    width: 100%;
+    height: 345.6px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.swiper4 .texts{
+    width: 98%;
+    padding: 8px 8px;
+}
+.swiper4 .texts a{
+    width: 100%;
+    font-size: 14px;
+    color: rgb(164, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+}
+.swiper4 .swiperslides4{
+    width: 95%;
+    height: 313.6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.s4Slider{
+  width: 240px;
+  height: 293.6px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border: 1px solid lightgray;
+border-radius: 5px;
+padding: 10px 10px;
+}
+
+.s4Slider .s4{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 20px;
+}
+.s4Slider .s4 img{
+width: 95%;
+height: inherit;
+object-fit: cover;
+}
+
+.s4Slider .parags{
+    font-size: 14px;
+    padding: 5px;
+    font-family: iransans;
+    line-height: 20px;
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.s4Slider .parags span{
+    color: rgb(115, 115, 115);
+}
+.s4Slider .priceAll{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin-top: 10px;
+    
+}
+.s4Slider .priceAll .price{
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-flow: column;
+margin-right: 60px;
+font-size: 14px;
+}
+.s4Slider .priceAll .price .price4{
+    color: lightslategray;
+    text-decoration: line-through;
+}
+.s4Slider .priceAll .discount{
+    background-color: rgb(225, 29, 72);
+    width: fit-content;
+    height: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+margin-left: -85px;
+padding: 3px 5px;
+color: white;
+font-size: 10px;
+font-weight: bold;
+}
+/* end nav css */
+footer{
+    width: 100%;
+    padding: 20px 30px;
+    background-color: rgb(164, 6, 6);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+footer .f{
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+footer .f a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 3px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+footer .f a:hover{
+    border-bottom: 1px solid pink;
+    color: pink;
+}
